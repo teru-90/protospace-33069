@@ -29,8 +29,8 @@
       </h2>
       <div class="user__card">
         <%# 部分テンプレートでそのユーザーが投稿したプロトタイプ投稿一覧を表示する %>
-        <%= render partial: 'prototypes/prototype', collection: @prototypes  %>
-        <%# <%= render partial: 'prototypes/prototype', locals: { prototype: @prototypes } こちらでは部分テンプレート先でimagがないというエラーがでる。%>      
+        <%= render partial: 'prototypes/prototype', collection: @prototypes %>
+        <%# <%= render partial: 'prototypes/prototype', locals: { prototype: @prototypes } こちらでは部分テンプレート先でimagがないというエラーがでる。%>   
       </div>
     </div>
   </div>
